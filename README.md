@@ -26,8 +26,6 @@ In this repository, you will find two main notebooks:
    - After reconstructing the source images, I concatenate them with the observed images to create two-channel input images.
    - These two-channel images are passed through a secondary encoder model, which performs the classification task.
   
-![Approach Explanation](https://github.com/ghatotkachhh/PINN-Classification/blob/main/approach_explanation.png)
-
 ### For the second approach:
 1. **Encoder for Feature Extraction:**
    - I use a pre-trained Resnet18 model as the encoder to extract features from the observed images.
