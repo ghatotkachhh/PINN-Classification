@@ -1,5 +1,11 @@
 # Training Log
 
+## Best Performance:
+- Best Accuracy: 0.9059 (Epoch 15)
+- Best ROC AUC Score: 0.9805 (Epoch 15)
+- Best Train Loss: 0.1175 (Epoch 15)
+- Best Validation Loss: 0.3135 (Epoch 15)
+
 ## Epoch no. = 1
 - Accuracy: 0.3523
 - ROC AUC Score: 0.5290
