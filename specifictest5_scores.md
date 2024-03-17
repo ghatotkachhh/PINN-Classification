@@ -1,4 +1,4 @@
-# Training Log
+# PINN Model-1-Log
 
 ## Best Performance:
 - Best Accuracy: 0.8925 (Epoch 12)
