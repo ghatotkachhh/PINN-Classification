@@ -9,11 +9,11 @@ In this repository, you will find two main notebooks:
 
 2. **PINN-GravitationalLensingeq.ipynb**: This notebook is dedicated to specific task 5, where we implement a Physics Informed Neural Network (PINN) architecture. The goal is to utilize the gravitational lensing equation within the architecture to enhance the network's performance compared to the results obtained in the common task.
 
-** Approach for integrating Gravitational Lensing Equation with neural network:**
+## Approach for integrating Gravitational Lensing Equation with neural network:
 
-** I have tried two approaches for the integration of the gravitational lensing equation with the neural network for the classification task which differ at the third step**
+**I have tried two approaches for the integration of the gravitational lensing equation with the neural network for the classification task which differ at the third step**
 
-**For the first approach**
+### For the first approach:
 1. **Encoder for Feature Extraction:**
    - I use a pre-trained Resnet18 model as the encoder to extract features from the observed images.
      
@@ -26,7 +26,7 @@ In this repository, you will find two main notebooks:
    - After reconstructing the source images, I concatenate them with the observed images to create two-channel input images.
    - These two-channel images are passed through a secondary encoder model, which performs the classification task.
 
-**For the second approach**
+### For the second approach:
 1. **Encoder for Feature Extraction:**
    - I use a pre-trained Resnet18 model as the encoder to extract features from the observed images.
      
@@ -36,5 +36,5 @@ In this repository, you will find two main notebooks:
    - This step effectively accounts for the gravitational lensing effects, providing a more accurate representation of the true source images.
 
 3. **Classification Component:**
-   - Now in the second approach After reconstructing the source images, I did not concatenate them instead trained the model solely on the sourced one-channel images.
+   - Now in the second approach, after reconstructing the source images, I did not concatenate them. Instead, I trained the model solely on the sourced one-channel images.
    - These one-channel images are passed through a secondary encoder model, which performs the classification task.
