@@ -25,6 +25,8 @@ In this repository, you will find two main notebooks:
 3. **Classification Component:**
    - After reconstructing the source images, I concatenate them with the observed images to create two-channel input images.
    - These two-channel images are passed through a secondary encoder model, which performs the classification task.
+  
+![Alt Text]([https://github.com/username/repository/blob/branch/path/to/image.png](https://github.com/ghatotkachhh/PINN-Classification/blob/main/approach_explaination.png))
 
 ### For the second approach:
 1. **Encoder for Feature Extraction:**
